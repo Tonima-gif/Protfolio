@@ -39,7 +39,5 @@ Open your browser and visit
 3. Skills Section: Update src/data/skills.json.
 4. Contact Information: Edit src/components/Contact.js.
 
-
-
-
+* Live Site
 - [Live](https://zingy-empanada-3561d0.netlify.app/)
