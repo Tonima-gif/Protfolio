@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
+
 import adopt from '../assets/Screenshot (41).png'
 
 const ProjectsDetails = () => {
     return (
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 py-4 mb-10">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
       src={adopt}
@@ -22,7 +22,7 @@ You can mark the page image of your choice by clicking on the like button.
 You can click on the Short By Price button to know the price of pets from the highest to the lowest.
 ES6 Features: 1.Const 2.Let 3.forEach 4.async function 5.Arrow function 6.Default parameter.</p>
       </div>
-      <Link to="https://dainty-rugelach-14c1de.netlify.app/" className='btn bg-pink-300 px-6 text-base font-bold'>Live site</Link>
+      <a href="https://dainty-rugelach-14c1de.netlify.app/" target='https://dainty-rugelach-14c1de.netlify.app/' className='btn bg-blue-300 px-6 text-base font-bold'>Live site</a>
     </div>
   </div>
 </div>

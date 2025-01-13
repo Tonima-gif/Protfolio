@@ -6,10 +6,10 @@ const AboutMe = () => {
     return (
         <div>
             <div className="lg:w-80 mx-auto mt-10 mb-20">
-            <h1 className="text-4xl text-orange-950 font-bold border-y-2 border-orange-500 rounded-2xl py-4 text-center">About Me</h1>
+            <h1 className="text-4xl text-blue-950 font-bold border-y-2 border-blue-500 rounded-2xl py-4 text-center">About Me</h1>
        </div>
 
-<p className="text-xl text-center text-orange-800 font-bold lg:px-20 mb-10">
+<p className="text-xl text-center text-blue-950 font-bold lg:px-20 mb-10">
 I’m Eheteshamul Easha, a Web Developer with a passion for creating beautiful websites.
 
 I specialize in JavaScript, React, and Node.js UI/UX design and love turning ideas into reality.
@@ -19,9 +19,9 @@ When I’m not working, I enjoy traveling,reading,exploring new technologies.
 Let’s work together to make something great!
 </p>
 <div className="flex justify-center">
-<Link to="about" className="text-center text-cyan-200 text-base mt-9 btn px-5 bg-orange-700">Learn More</Link>
+<Link to="about" className="text-center btn border-2  border-blue-500 text-cyan-200 text-base mt-9 px-5 bg-blue-700">Learn More</Link>
 </div>
-<div className="bg-gray-100 rounded-b-[160px] rounded-t-[160px] pb-20 mt-9">
+<div className="bg-gray-100 lg:rounded-b-[160px] rounded-t-[160px] pb-16 mt-9">
 
 <motion.div
     animate={{ y:[ 10, 100, 10] }}

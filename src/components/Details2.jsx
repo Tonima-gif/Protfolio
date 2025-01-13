@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+
 import game from '../assets/Screenshot (42).png'
 
 const Details2 = () => {
     return (
-        <div className="hero bg-base-200 min-h-screen">
+       <div className='mb-36'>
+         <div className="hero bg-base-200 py-4 rounded-md">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={game}
@@ -30,10 +31,12 @@ React Icons<br></br>
 
 daisyUI</p>
             </div>
-            <Link to="https://chipper-biscotti-e72f6a.netlify.app/" className='btn bg-pink-300 px-6 text-base font-bold'>Live site</Link>
+            <a href="https://chipper-biscotti-e72f6a.netlify.app/" target="https://chipper-biscotti-e72f6a.netlify.app/" className='btn bg-blue-300 px-6 text-base font-bold'>Live site</a>
           </div>
         </div>
       </div>
+       </div>
+
     );
 };
 

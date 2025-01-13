@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+
 import cricket from '../assets/Screenshot (45).png'
 
 const Details5 = () => {
     return (
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 py-4 mb-10">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={cricket}
@@ -29,7 +29,7 @@ React Icons<br></br>
 
 daisyUI</p>
             </div>
-            <Link to="https://lovely-frangipane-28ac5d.netlify.app/" className='btn bg-pink-300 px-6 text-base font-bold'>Live site</Link>
+            <a href="https://lovely-frangipane-28ac5d.netlify.app/" target="https://lovely-frangipane-28ac5d.netlify.app/" className='btn bg-blue-300 px-6 text-base font-bold'>Live site</a>
           </div>
         </div>
       </div>

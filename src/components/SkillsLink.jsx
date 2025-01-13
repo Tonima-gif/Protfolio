@@ -1,19 +1,12 @@
-import { motion } from "motion/react"
+
 
 
 const SkillsLink = () => {
     return (
         <div className="bg-gray-100 rounded-b-[160px] rounded-t-[160px] py-16">
 
-<motion.div
-    animate={{ y:[ 10, 100, 10] }}
-    transition={{ duration: 25 ,delay:2, repeat:Infinity}}
->
-    <motion.h1
-     animate={{background:["#A294F9","#4F1787","#8D77AB","#FFF9BF","#80C4E9","#DC0083"]}}
-     transition={{ duration: 5 ,delay:1, repeat:Infinity}}
-    className="text-4xl w-60 text-white font-bold ml-28 mt-20 mb-40 border-y-2 border-sky-500 rounded-2xl py-4 text-center flex items-center gap-3 justify-center"><img src="https://img.icons8.com/?size=50&id=52234&format=png" alt="" /> Skills</motion.h1>
-</motion.div>
+<h1 className="text-blue-950 text-center text-4xl py-10 font-bold">Skills</h1>
+
 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:px-20">
 <div className="text-center border-2 border-sky-300 rounded-2xl p-5 bg-sky-50 shadow-lg">
         <img className="mx-auto" src="https://img.icons8.com/?size=50&id=10246&format=png" alt="" />

@@ -34,10 +34,9 @@ Open your browser and visit
 # Usage
 * You can customize this portfolio by editing the content in the source files:
 
-1. About Section: src/components/About.jsx.
-2. Projects Section: src/components/.
-3. Skills Section: Update src/data/skills.json.
-4. Contact Information: Edit src/components/Contact.js.
+1. About Section: src/components/AboutMe.jsx.
+2. Skills Section: Update src/components/skillsLink.jsx.
+3. Contact Information: Edit src/components/Contact.jsx.
 
 * Live Site
 - [Live](https://zingy-empanada-3561d0.netlify.app/)

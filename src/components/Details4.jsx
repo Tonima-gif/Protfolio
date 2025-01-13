@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+
 import gadget from '../assets/Screenshot (44).png'
 
 const Details4 = () => {
     return (
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 py-4 mb-10">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={gadget}
@@ -29,7 +29,7 @@ React Icons<br></br>
 
 daisyUI</p>
             </div>
-            <Link to="https://poetic-capybara-f6dff2.netlify.app/" className='btn bg-pink-300 px-6 text-base font-bold'>Live site</Link>
+            <a href="https://poetic-capybara-f6dff2.netlify.app/" target="https://poetic-capybara-f6dff2.netlify.app/" className='btn bg-blue-300 px-6 text-base font-bold'>Live site</a>
           </div>
         </div>
       </div>

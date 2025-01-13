@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import adopt from '../assets/Screenshot (41).png'
 import game from '../assets/Screenshot (42).png'
-import volunteer from '../assets/Screenshot (43).png'
+import volunteer from '../assets/Screenshot (79).png'
 import gadget from '../assets/Screenshot (44).png'
 import cricket from '../assets/Screenshot (45).png'
 
 const Projects = () => {
     return (
-        <div className="bg-sky-100 py-10 rounded-b-[180px] mt-14">
-            <h1 className="text-4xl text-orange-900 font-bold text-center mb-8 flex justify-center items-center"><img src="https://img.icons8.com/?size=48&id=MLsI9Dal53Hu&format=png" alt="" /> Projects</h1>
+        <div className="bg-sky-100 py-10 lg:rounded-b-[180px] mt-14">
+            <h1 className="text-4xl text-blue-950 font-bold text-center mb-8 flex justify-center items-center"><img src="https://img.icons8.com/?size=48&id=MLsI9Dal53Hu&format=png" alt="" /> Projects</h1>
            <div className="lg:px-28">
 <Link to="detail1">
 
