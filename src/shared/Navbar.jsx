@@ -42,7 +42,7 @@ const Navbar = () => {
       </ul>
     </div>
     <div className="navbar-end">
-    <a href="/public/resume.pdf" download className="btn bg-blue-100 text-sky-600 border-2 border-blue-500"><img className="w-8" src="https://img.icons8.com/?size=48&id=VGQlJM067vkN&format=png"/> Resume</a>
+    <a href="/src/resume.pdf" download className="btn bg-blue-100 text-sky-600 border-2 border-blue-500"><img className="w-8" src="https://img.icons8.com/?size=48&id=VGQlJM067vkN&format=png"/> Resume</a>
     </div>
   </div>
     );

@@ -16,7 +16,7 @@ const Banner = () => {
                 <p className="text-base font-semibold my-6">I am Frontend and Backend Developer</p>
                 <div className="flex gap-4">
                     <Link to="detail" className="text-white bg-orange-300 btn px-6 border-2 border-orange-500"><img className="w-6" src="https://img.icons8.com/?size=30&id=RvJIXPXT3lIV&format=gif" alt="" /> Details</Link>
-                    <a href="/public/resume.pdf" download className="text-sky-900 bg-sky-300 btn px-4 border-2 border-sky-600"><img className="w-8" src="https://img.icons8.com/?size=48&id=eMJFlZiyvaqY&format=png"/> Resume Download</a>
+                    <a href="/src/resume.pdf" download className="text-sky-900 bg-sky-300 btn px-4 border-2 border-sky-600"><img className="w-8" src="https://img.icons8.com/?size=48&id=eMJFlZiyvaqY&format=png"/> Resume Download</a>
                 </div>
             </div>
            <div>
