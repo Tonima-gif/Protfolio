@@ -42,6 +42,9 @@ const Footer = () => {
       <a href="https://www.facebook.com/profile.php?id=100010666809633" target="https://www.facebook.com/profile.php?id=100010666809633">
        <img src="https://img.icons8.com/?size=48&id=118497&format=png" alt="" />
       </a>
+      <a href="https://github.com/Easha-gif" target="https://github.com/Easha-gif">
+       <img className='h-12' src="https://img.icons8.com/?size=80&id=efFfwotdkiU5&format=png" alt="" />
+      </a>
     </div>
   </nav>
   </div>

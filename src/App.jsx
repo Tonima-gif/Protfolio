@@ -6,9 +6,9 @@ import Footer from "./shared/Footer";
 const App = () => {
   return (
     <>
-   <div className="lg:w-11/12 mx-auto">
+   <div>
    <Navbar></Navbar>
- <div className="min-h-screen">
+ <div className="min-h-screen lg:w-11/12 mx-auto">
  <Outlet></Outlet>
  </div>
   <Footer></Footer>

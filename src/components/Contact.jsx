@@ -29,7 +29,7 @@ const Contact = () => {
         );
     };
     return (
-        <div className="mb-36 mt-10">
+        <div id='contact' className="mb-36 mt-10">
             <h1 className="text-4xl font-bold mt-16 mb-10 text-center">Contact Me</h1>
            <div className="flex flex-col lg:flex-row gap-16 justify-center items-center lg:px-16">
            <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-5 w-full px-5 lg:w-1/2">

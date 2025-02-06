@@ -1,9 +1,9 @@
-import { NavLink } from "react-router-dom";
+
 
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-sky-200 lg:px-10 lg:w-11/12 mx-auto rounded-sm fixed z-10 bg-opacity-80">
+        <div className="navbar bg-sky-200 lg:px-10 rounded-sm fixed z-10 bg-opacity-80">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,26 +23,26 @@ const Navbar = () => {
         <ul
           tabIndex={0}
           className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <NavLink to="/" className="text-base text-sky-600 font-bold">Home</NavLink>
-          <NavLink to="about" className="text-base text-sky-600 font-bold">About</NavLink>
-          <NavLink to="contact" className="text-base text-sky-600 font-bold">Contact</NavLink>
-          <NavLink to="skill" className="text-base text-sky-600 font-bold">skill</NavLink>
+         <a href="/"className="text-base text-sky-600 font-bold mr-4">Home</a>
+         <a href="#about"className="text-base text-sky-600 font-bold mr-4">About</a>
+         <a href="#skill"className="text-base text-sky-600 font-bold mr-4">Skills</a>
+         <a href="#contact"className="text-base text-sky-600 font-bold mr-4">Contact</a>
         </ul>
       </div>
       <a className="text-xl">
         <img src="https://img.icons8.com/?size=64&id=J3nZHWgT1e7m&format=png" alt="" />
       </a>
     </div>
-    <div className="navbar-center hidden lg:flex">
+    <div className="navbar-center hidden lg:flex items-center">
       <ul className="menu menu-horizontal px-1">
-      <NavLink to="/" className="text-lg text-sky-600 mr-6 font-bold">Home</NavLink>
-      <NavLink to="about" className="text-lg text-sky-600 mr-6 font-bold">About</NavLink>
-          <NavLink to="contact" className="text-lg text-sky-600 mr-6 font-bold">Contact</NavLink>
-          <NavLink to="skill" className="text-lg text-sky-600 mr-6 font-bold">skill</NavLink>
+      <a href="/"className="text-base text-sky-600 font-semibold mr-4">Home</a>
+         <a href="#about"className="text-base text-sky-600 font-semibold mr-4">About</a>
+         <a href="#skill"className="text-base text-sky-600 font-semibold mr-4">Skills</a>
+         <a href="#contact"className="text-base text-sky-600 font-semibold mr-4">Contact</a>
       </ul>
     </div>
     <div className="navbar-end">
-    <a href="/src/resume.pdf" download className="btn bg-blue-100 text-sky-600 border-2 border-blue-500"><img className="w-8" src="https://img.icons8.com/?size=48&id=VGQlJM067vkN&format=png"/> Resume</a>
+    <a className="btn bg-blue-100 text-sky-600 border-2 border-blue-500"><img className="w-8" src="https://img.icons8.com/?size=48&id=VGQlJM067vkN&format=png"/> Resume</a>
     </div>
   </div>
     );
