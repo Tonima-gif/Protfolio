@@ -10,7 +10,7 @@ const Banner = () => {
 <div id="banner">
 <div className="flex flex-col gap-20 lg:flex-row justify-between items-center lg:px-20 pt-36 pb-32">
             <div>
-                <h1 className="text-5xl text-black font-bold mb-4 lg:-mt-10">Eheteshamul Easha</h1>
+                <h1 className="text-5xl text-black font-bold mb-4 lg:-mt-10">Tonima Tajrin</h1>
                 <p className="text-base font-semibold my-6">I am Frontend and Backend Developer</p>
                 <div className="flex gap-4">
                     <Link to="detail" className="text-white bg-orange-300 btn px-6 border-2 border-orange-500"><img className="w-6" src="https://img.icons8.com/?size=30&id=RvJIXPXT3lIV&format=gif" alt="" /> Details</Link>
@@ -20,10 +20,7 @@ const Banner = () => {
       <a href="https://www.linkedin.com/in/easha-khan-849809345/" target="https://www.linkedin.com/in/easha-khan-849809345/">
       <img src="https://img.icons8.com/?size=48&id=13930&format=png" alt="" />
       </a>
-      <a href="https://www.facebook.com/profile.php?id=100010666809633" target="https://www.facebook.com/profile.php?id=100010666809633">
-       <img src="https://img.icons8.com/?size=48&id=118497&format=png" alt="" />
-      </a>
-      <a href="https://github.com/Easha-gif" target="https://github.com/Easha-gif">
+      <a href="https://github.com/Tonima-gif" target="https://github.com/Tonima-gif">
        <img className='h-12' src="https://img.icons8.com/?size=80&id=efFfwotdkiU5&format=png" alt="" />
       </a>
     </div>

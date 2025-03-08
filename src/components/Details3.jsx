@@ -21,7 +21,7 @@ Express Js<br></br>
 </p>
           </div>
           <a href="https://sparkly-rolypoly-810eb2.netlify.app/" target="https://sparkly-rolypoly-810eb2.netlify.app/" className='btn bg-blue-300 px-6 text-base font-bold'>Live site</a>
-          <a href="https://github.com/Easha-gif/volunteer-client" target="https://github.com/Easha-gif/volunteer-client" className='btn bg-blue-300 px-6 text-base font-bold'>Github</a>
+          <a href="https://github.com/Tonima-gif/volunteer-client" target="https://github.com/Tonima-gif/volunteer-client" className='btn bg-blue-300 px-6 text-base font-bold'>Github</a>
       
       <p className='text-black text-lg font-bold py-4'>Challenges : <span className='text-base text-gray-700 m-2'>
       1.Designing a user-friendly interface for both volunteers and organizations to navigate and manage events.

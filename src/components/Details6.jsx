@@ -23,7 +23,7 @@ Firebase<br></br>
 </p>
              </div>
              <a href="https://leafy-sable-0f7ca9.netlify.app/" target="https://leafy-sable-0f7ca9.netlify.app/" className='btn bg-blue-300 px-6 text-base font-bold'>Live site</a>
-             <a href="https://github.com/Easha-gif/asset-management" target="https://github.com/Easha-gif/asset-management" className='btn bg-blue-300 px-6 text-base font-bold'>Github</a>
+             <a href="https://github.com/Tonima-gif/asset-management" target="https://github.com/Tonima-gif/asset-management" className='btn bg-blue-300 px-6 text-base font-bold'>Github</a>
          
          <p className='text-black text-lg font-bold py-4'>Challenges : <span className='text-base text-gray-700 m-2'>
          1.Integrating the frontend interface with backend asset tracking data.

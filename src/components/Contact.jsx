@@ -40,7 +40,7 @@ const Contact = () => {
             </form>
             <div className="w-full px-5 lg:w-1/2">
                 <p className="text-xl font-bold flex items-center gap-3 justify-start"><img src="https://img.icons8.com/?size=40&id=30568&format=png" alt="" /> Rajshahi ,Bangladesh</p>
-                <p className="text-base font-semibold flex items-center gap-2 justify-start"><img src="https://img.icons8.com/?size=80&id=108806&format=png" alt="" /> eashakhan000@gmail.com</p>
+                <p className="text-base font-semibold flex items-center gap-2 justify-start"><img src="https://img.icons8.com/?size=80&id=108806&format=png" alt="" /> tonimatajrin85@gmail.com</p>
                 <p className="text-base font-semibold flex items-center gap-3 justify-start"><img src="https://img.icons8.com/?size=48&id=58pGdHAS6Va3&format=gif" alt="" /> 01622990670</p>
                 <p  className="text-base font-semibold flex items-center gap-3 justify-start"><img src="https://img.icons8.com/?size=48&id=16713&format=png" alt="" /> 01622990670</p>
             </div>
