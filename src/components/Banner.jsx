@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import eashaImg from '../assets/IMG_0sss713.jpg'
+import eashaImg from '../assets/hijab2.png'
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";

@@ -9,7 +9,7 @@ const AboutMe = () => {
        </div>
 
 <p className="text-xl text-center text-blue-950 font-bold lg:px-20 mb-10">
-Hello! Im Md. Ehteshamul Isha, a frontend developer with a passion for creating beautiful, user-friendly interfaces. My programming journey started with a fascination for how design and functionality come together to enhance the user experience. Over the years, I’ve honed my skills in HTML, CSS, JavaScript , ReactJs , Next.Js , Mongodb ,and modern frontend frameworks to build websites and web applications that are both visually appealing and easy to use.
+Hello! Im Mst.Tonima Tajrin, a frontend developer with a passion for creating beautiful, user-friendly interfaces. My programming journey started with a fascination for how design and functionality come together to enhance the user experience. Over the years, I’ve honed my skills in HTML, CSS, JavaScript , ReactJs , Next.Js , Mongodb ,and modern frontend frameworks to build websites and web applications that are both visually appealing and easy to use.
 
 I specialize in crafting intuitive, responsive designs, and I thrive on the challenge of turning complex requirements into seamless, interactive experiences. Whether its optimizing performance or ensuring that a design looks great on any device, I enjoy every aspect of the frontend development process.
 
